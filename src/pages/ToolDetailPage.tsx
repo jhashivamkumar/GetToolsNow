@@ -42,6 +42,12 @@ import GSTCalculator from '@/components/tools/GSTCalculator';
 import PasswordGenerator from '@/components/tools/PasswordGenerator';
 import JSONFormatter from '@/components/tools/JSONFormatter';
 import Base64Encoder from '@/components/tools/Base64Encoder';
+import BarcodeGenerator from '@/components/tools/BarcodeGenerator';
+import ColorPicker from '@/components/tools/ColorPicker';
+import GradientGenerator from '@/components/tools/GradientGenerator';
+import URLEncoder from '@/components/tools/URLEncoder';
+import HashGenerator from '@/components/tools/HashGenerator';
+import UUIDGenerator from '@/components/tools/UUIDGenerator';
 
 // International Tools
 import InvoiceGeneratorGlobal from '@/components/tools/InvoiceGeneratorGlobal';
@@ -74,6 +80,12 @@ const toolComponents: Record<string, ComponentType> = {
   'password-generator': PasswordGenerator,
   'json-formatter': JSONFormatter,
   'base64-encoder': Base64Encoder,
+  'barcode-generator': BarcodeGenerator,
+  'color-picker': ColorPicker,
+  'gradient-generator': GradientGenerator,
+  'url-encoder': URLEncoder,
+  'hash-generator': HashGenerator,
+  'uuid-generator': UUIDGenerator,
 
   'invoice-generator-global': InvoiceGeneratorGlobal,
   'vat-calculator': VATCalculator,
