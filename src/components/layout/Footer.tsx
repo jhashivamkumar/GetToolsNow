@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Zap, Github, Twitter, Linkedin, Mail } from 'lucide-react';
+import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
+import logoIcon from '@/assets/logo-icon.png';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -40,7 +41,7 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <Zap className="h-6 w-6 text-primary" />
+              <img src={logoIcon} alt="GetToolsNow Logo" className="h-6 w-6" />
               <span className="text-lg font-bold gradient-text">GetToolsNow</span>
             </Link>
             <p className="text-sm text-muted-foreground mb-4">
