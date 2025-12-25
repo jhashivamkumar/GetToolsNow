@@ -22,6 +22,11 @@ import QRCodeGenerator from '@/components/tools/QRCodeGenerator';
 import ImageCompressor from '@/components/tools/ImageCompressor';
 import LetterGenerator from '@/components/tools/LetterGenerator';
 
+// Image Tools
+import ImageResizer from '@/components/tools/ImageResizer';
+import PNGtoJPG from '@/components/tools/PNGtoJPG';
+import ImageCropper from '@/components/tools/ImageCropper';
+
 // Text tools
 import WordCounter from '@/components/tools/WordCounter';
 import TextCaseConverter from '@/components/tools/TextCaseConverter';
@@ -100,6 +105,11 @@ const toolComponents: Record<string, ComponentType> = {
   // Business Tools
   'salary-slip-generator': SalarySlipGenerator,
   'quotation-maker': QuotationMaker,
+
+  // Image Tools
+  'image-resizer': ImageResizer,
+  'png-to-jpg': PNGtoJPG,
+  'image-cropper': ImageCropper,
 };
 
 export default function ToolDetailPage() {
