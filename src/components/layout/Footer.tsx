@@ -41,7 +41,7 @@ export function Footer() {
           <div className="col-span-2 md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
               <Zap className="h-6 w-6 text-primary" />
-              <span className="text-lg font-bold gradient-text">ToolSprint</span>
+              <span className="text-lg font-bold gradient-text">GetToolsNow</span>
             </Link>
             <p className="text-sm text-muted-foreground mb-4">
               Free online tools to boost your productivity. No signup required.
@@ -156,7 +156,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} ToolSprint. All rights reserved.
+            © {currentYear} GetToolsNow. All rights reserved.
           </p>
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
             <Link to="/tools" className="hover:text-foreground transition-colors">

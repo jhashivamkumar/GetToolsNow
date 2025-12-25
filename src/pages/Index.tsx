@@ -14,7 +14,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const homeFaqs = [
-  { q: "Are all tools really free?", a: "Yes! All tools on ToolSprint are completely free to use with no hidden fees or subscriptions required." },
+  { q: "Are all tools really free?", a: "Yes! All tools on GetToolsNow are completely free to use with no hidden fees or subscriptions required." },
   { q: "Do I need to create an account?", a: "No account is needed. Simply use any tool directly without signing up." },
   { q: "Is my data safe?", a: "Absolutely. Most of our tools process data locally in your browser. We never store your files on our servers." },
   { q: "Can I use these tools for commercial purposes?", a: "Yes, you can use our tools for both personal and commercial projects without any restrictions." },
@@ -44,7 +44,7 @@ const Index = () => {
     <>
       <SEO
         title="Free Online Tools & Generators"
-        description="ToolSprint offers 30+ free online tools including resume builder, invoice generator, QR code maker, image compressor, and more. No signup required!"
+        description="GetToolsNow offers 30+ free online tools including resume builder, invoice generator, QR code maker, image compressor, and more. No signup required!"
         canonical="/"
         jsonLd={generateFAQSchema(homeFaqs)}
       />

@@ -2,188 +2,237 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Main Pages -->
   <url>
-    <loc>https://toolsprint.com/</loc>
+    <loc>https://gettoolsnow.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tools</loc>
+    <loc>https://gettoolsnow.com/tools</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/blog</loc>
+    <loc>https://gettoolsnow.com/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/about</loc>
+    <loc>https://gettoolsnow.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/contact</loc>
+    <loc>https://gettoolsnow.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/favorites</loc>
+    <loc>https://gettoolsnow.com/favorites</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <!-- Categories -->
   <url>
-    <loc>https://toolsprint.com/tools/documents</loc>
+    <loc>https://gettoolsnow.com/tools/documents</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tools/business</loc>
+    <loc>https://gettoolsnow.com/tools/business</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tools/images</loc>
+    <loc>https://gettoolsnow.com/tools/images</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tools/utilities</loc>
+    <loc>https://gettoolsnow.com/tools/utilities</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tools/text</loc>
+    <loc>https://gettoolsnow.com/tools/text</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tools/calculators</loc>
+    <loc>https://gettoolsnow.com/tools/calculators</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <!-- Popular Tools -->
   <url>
-    <loc>https://toolsprint.com/tool/resume-builder</loc>
+    <loc>https://gettoolsnow.com/tool/resume-builder</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/invoice-generator</loc>
+    <loc>https://gettoolsnow.com/tool/invoice-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/invoice-generator-global</loc>
+    <loc>https://gettoolsnow.com/tool/invoice-generator-global</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/qr-code-generator</loc>
+    <loc>https://gettoolsnow.com/tool/qr-code-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/image-compressor</loc>
+    <loc>https://gettoolsnow.com/tool/image-compressor</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/letter-generator</loc>
+    <loc>https://gettoolsnow.com/tool/letter-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <!-- Calculators -->
   <url>
-    <loc>https://toolsprint.com/tool/emi-calculator</loc>
+    <loc>https://gettoolsnow.com/tool/emi-calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/sip-calculator</loc>
+    <loc>https://gettoolsnow.com/tool/sip-calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/gst-calculator</loc>
+    <loc>https://gettoolsnow.com/tool/gst-calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/vat-calculator</loc>
+    <loc>https://gettoolsnow.com/tool/vat-calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/salary-calculator</loc>
+    <loc>https://gettoolsnow.com/tool/salary-calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/salary-calculator-global</loc>
+    <loc>https://gettoolsnow.com/tool/salary-calculator-global</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/age-calculator</loc>
+    <loc>https://gettoolsnow.com/tool/age-calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/percentage-calculator</loc>
+    <loc>https://gettoolsnow.com/tool/percentage-calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/tip-calculator</loc>
+    <loc>https://gettoolsnow.com/tool/tip-calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/currency-converter</loc>
+    <loc>https://gettoolsnow.com/tool/currency-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <!-- Text Tools -->
   <url>
-    <loc>https://toolsprint.com/tool/word-counter</loc>
+    <loc>https://gettoolsnow.com/tool/word-counter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/text-case-converter</loc>
+    <loc>https://gettoolsnow.com/tool/text-case-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/lorem-ipsum</loc>
+    <loc>https://gettoolsnow.com/tool/lorem-ipsum</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/text-diff</loc>
+    <loc>https://gettoolsnow.com/tool/text-diff</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <!-- Utilities -->
   <url>
-    <loc>https://toolsprint.com/tool/password-generator</loc>
+    <loc>https://gettoolsnow.com/tool/password-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/json-formatter</loc>
+    <loc>https://gettoolsnow.com/tool/json-formatter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsprint.com/tool/base64-encoder</loc>
+    <loc>https://gettoolsnow.com/tool/base64-encoder</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  
+  <!-- Image Tools -->
+  <url>
+    <loc>https://gettoolsnow.com/tool/image-resizer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gettoolsnow.com/tool/png-to-jpg</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gettoolsnow.com/tool/jpg-to-png</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gettoolsnow.com/tool/webp-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gettoolsnow.com/tool/image-cropper</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gettoolsnow.com/tool/background-remover</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gettoolsnow.com/tool/image-to-pdf</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Business Tools -->
+  <url>
+    <loc>https://gettoolsnow.com/tool/salary-slip-generator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gettoolsnow.com/tool/quotation-maker</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
