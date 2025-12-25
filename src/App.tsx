@@ -13,6 +13,7 @@ import BlogPage from "./pages/BlogPage";
 import BlogPostPage from "./pages/BlogPostPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import FavoritesPage from "./pages/FavoritesPage";
 import PrivacyPage from "./pages/PrivacyPage";
 import TermsPage from "./pages/TermsPage";
 import NotFound from "./pages/NotFound";
@@ -36,6 +37,7 @@ const App = () => (
               <Route path="/blog/:slug" element={<BlogPostPage />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/contact" element={<ContactPage />} />
+              <Route path="/favorites" element={<FavoritesPage />} />
               <Route path="/privacy" element={<PrivacyPage />} />
               <Route path="/terms" element={<TermsPage />} />
               <Route path="*" element={<NotFound />} />
