@@ -25,7 +25,11 @@ import LetterGenerator from '@/components/tools/LetterGenerator';
 // Image Tools
 import ImageResizer from '@/components/tools/ImageResizer';
 import PNGtoJPG from '@/components/tools/PNGtoJPG';
+import JPGtoPNG from '@/components/tools/JPGtoPNG';
+import WebPConverter from '@/components/tools/WebPConverter';
 import ImageCropper from '@/components/tools/ImageCropper';
+import ImageToPDF from '@/components/tools/ImageToPDF';
+import BackgroundRemover from '@/components/tools/BackgroundRemover';
 
 // Text tools
 import WordCounter from '@/components/tools/WordCounter';
@@ -109,7 +113,11 @@ const toolComponents: Record<string, ComponentType> = {
   // Image Tools
   'image-resizer': ImageResizer,
   'png-to-jpg': PNGtoJPG,
+  'jpg-to-png': JPGtoPNG,
+  'webp-converter': WebPConverter,
   'image-cropper': ImageCropper,
+  'image-to-pdf': ImageToPDF,
+  'background-remover': BackgroundRemover,
 };
 
 export default function ToolDetailPage() {
