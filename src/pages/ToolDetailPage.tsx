@@ -56,6 +56,10 @@ import SalaryCalculatorGlobal from '@/components/tools/SalaryCalculatorGlobal';
 import CurrencyConverter from '@/components/tools/CurrencyConverter';
 import TipCalculator from '@/components/tools/TipCalculator';
 
+// Business Tools
+import SalarySlipGenerator from '@/components/tools/SalarySlipGenerator';
+import QuotationMaker from '@/components/tools/QuotationMaker';
+
 const toolComponents: Record<string, ComponentType> = {
   'resume-builder': ResumeBuilder,
   'invoice-generator': InvoiceGenerator,
@@ -92,6 +96,10 @@ const toolComponents: Record<string, ComponentType> = {
   'salary-calculator-global': SalaryCalculatorGlobal,
   'currency-converter': CurrencyConverter,
   'tip-calculator': TipCalculator,
+
+  // Business Tools
+  'salary-slip-generator': SalarySlipGenerator,
+  'quotation-maker': QuotationMaker,
 };
 
 export default function ToolDetailPage() {
