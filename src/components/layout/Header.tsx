@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Search, Menu, X, Sun, Moon, Heart, Zap } from 'lucide-react';
+import { Search, Menu, X, Sun, Moon, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTheme } from '@/hooks/useTheme';
 import { useFavorites } from '@/hooks/useLocalStorage';
 import { SearchModal } from '@/components/SearchModal';
+import logoIcon from '@/assets/logo-icon.png';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -53,7 +54,11 @@ export function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <div className="relative">
-              <Zap className="h-8 w-8 text-primary transition-transform group-hover:scale-110" />
+              <img 
+                src={logoIcon} 
+                alt="GetToolsNow Logo" 
+                className="h-8 w-8 transition-transform group-hover:scale-110"
+              />
               <div className="absolute inset-0 bg-primary/30 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
             </div>
             <span className="text-xl font-bold gradient-text">GetToolsNow</span>
