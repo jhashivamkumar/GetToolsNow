@@ -1,5 +1,9 @@
 import { cn } from '@/lib/utils';
 
+// Global flag to control ad visibility across the site
+// Set to true to show ads, false to hide them
+export const SHOW_ADS = false;
+
 type AdSlotType = 'banner' | 'sidebar' | 'in-content' | 'footer';
 
 interface AdSlotProps {
@@ -15,6 +19,11 @@ const adSizes: Record<AdSlotType, { width: string; height: string; label: string
 };
 
 export function AdSlot({ type, className }: AdSlotProps) {
+  // Return null if ads are disabled
+  if (!SHOW_ADS) {
+    return null;
+  }
+
   const size = adSizes[type];
 
   return (
