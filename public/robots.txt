@@ -15,4 +15,4 @@ User-agent: facebookexternalhit
 Allow: /
 
 # Sitemap
-Sitemap: https://toolsprint.com/sitemap.xml
+Sitemap: https://gettoolsnow.com/sitemap.xml

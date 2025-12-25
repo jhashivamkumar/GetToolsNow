@@ -24,9 +24,9 @@ export function SEO({
   article,
   jsonLd,
 }: SEOProps) {
-  const siteName = 'ToolSprint';
+  const siteName = 'GetToolsNow';
   const fullTitle = `${title} | ${siteName}`;
-  const siteUrl = 'https://toolsprint.com';
+  const siteUrl = 'https://gettoolsnow.com';
 
   const jsonLdArray = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
 
@@ -104,7 +104,7 @@ export function generateBreadcrumbSchema(items: { name: string; url: string }[])
       "@type": "ListItem",
       "position": index + 1,
       "name": item.name,
-      "item": `https://toolsprint.com${item.url}`
+      "item": `https://gettoolsnow.com${item.url}`
     }))
   };
 }
@@ -130,12 +130,12 @@ export function generateArticleSchema(article: {
     "dateModified": article.modifiedTime || article.publishedTime,
     "publisher": {
       "@type": "Organization",
-      "name": "ToolSprint",
+      "name": "GetToolsNow",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://toolsprint.com/logo.png"
+        "url": "https://gettoolsnow.com/logo.png"
       }
     },
-    "image": article.image || "https://toolsprint.com/og-default.png"
+    "image": article.image || "https://gettoolsnow.com/og-default.png"
   };
 }
