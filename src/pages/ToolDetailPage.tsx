@@ -38,6 +38,11 @@ import PercentageCalculator from '@/components/tools/PercentageCalculator';
 import SalaryCalculator from '@/components/tools/SalaryCalculator';
 import GSTCalculator from '@/components/tools/GSTCalculator';
 
+// Utilities
+import PasswordGenerator from '@/components/tools/PasswordGenerator';
+import JSONFormatter from '@/components/tools/JSONFormatter';
+import Base64Encoder from '@/components/tools/Base64Encoder';
+
 const toolComponents: Record<string, ComponentType> = {
   'resume-builder': ResumeBuilder,
   'invoice-generator': InvoiceGenerator,
@@ -58,6 +63,10 @@ const toolComponents: Record<string, ComponentType> = {
   'percentage-calculator': PercentageCalculator,
   'salary-calculator': SalaryCalculator,
   'gst-calculator': GSTCalculator,
+
+  'password-generator': PasswordGenerator,
+  'json-formatter': JSONFormatter,
+  'base64-encoder': Base64Encoder,
 };
 
 export default function ToolDetailPage() {
