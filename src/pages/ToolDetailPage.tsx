@@ -43,6 +43,13 @@ import PasswordGenerator from '@/components/tools/PasswordGenerator';
 import JSONFormatter from '@/components/tools/JSONFormatter';
 import Base64Encoder from '@/components/tools/Base64Encoder';
 
+// International Tools
+import InvoiceGeneratorGlobal from '@/components/tools/InvoiceGeneratorGlobal';
+import VATCalculator from '@/components/tools/VATCalculator';
+import SalaryCalculatorGlobal from '@/components/tools/SalaryCalculatorGlobal';
+import CurrencyConverter from '@/components/tools/CurrencyConverter';
+import TipCalculator from '@/components/tools/TipCalculator';
+
 const toolComponents: Record<string, ComponentType> = {
   'resume-builder': ResumeBuilder,
   'invoice-generator': InvoiceGenerator,
@@ -67,6 +74,12 @@ const toolComponents: Record<string, ComponentType> = {
   'password-generator': PasswordGenerator,
   'json-formatter': JSONFormatter,
   'base64-encoder': Base64Encoder,
+
+  'invoice-generator-global': InvoiceGeneratorGlobal,
+  'vat-calculator': VATCalculator,
+  'salary-calculator-global': SalaryCalculatorGlobal,
+  'currency-converter': CurrencyConverter,
+  'tip-calculator': TipCalculator,
 };
 
 export default function ToolDetailPage() {
