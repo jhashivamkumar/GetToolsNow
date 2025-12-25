@@ -12,6 +12,7 @@ import { Heart, Share2, CheckCircle } from 'lucide-react';
 import * as Icons from 'lucide-react';
 import { useFavorites, useRecentlyUsed } from '@/hooks/useLocalStorage';
 import { useEffect } from 'react';
+import type { ComponentType } from 'react';
 import { toast } from '@/hooks/use-toast';
 
 // Tool Components
@@ -21,12 +22,27 @@ import QRCodeGenerator from '@/components/tools/QRCodeGenerator';
 import ImageCompressor from '@/components/tools/ImageCompressor';
 import LetterGenerator from '@/components/tools/LetterGenerator';
 
-const toolComponents: Record<string, React.ComponentType> = {
+// Newly enabled tools
+import WordCounter from '@/components/tools/WordCounter';
+import TextCaseConverter from '@/components/tools/TextCaseConverter';
+import LoremIpsumGenerator from '@/components/tools/LoremIpsumGenerator';
+import TextDiffChecker from '@/components/tools/TextDiffChecker';
+import CoverLetterGenerator from '@/components/tools/CoverLetterGenerator';
+import LinkedInSummaryGenerator from '@/components/tools/LinkedInSummaryGenerator';
+
+const toolComponents: Record<string, ComponentType> = {
   'resume-builder': ResumeBuilder,
   'invoice-generator': InvoiceGenerator,
   'qr-code-generator': QRCodeGenerator,
   'image-compressor': ImageCompressor,
   'letter-generator': LetterGenerator,
+
+  'word-counter': WordCounter,
+  'text-case-converter': TextCaseConverter,
+  'lorem-ipsum': LoremIpsumGenerator,
+  'text-diff': TextDiffChecker,
+  'cover-letter-generator': CoverLetterGenerator,
+  'linkedin-summary': LinkedInSummaryGenerator,
 };
 
 export default function ToolDetailPage() {
