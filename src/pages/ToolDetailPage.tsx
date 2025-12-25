@@ -22,13 +22,21 @@ import QRCodeGenerator from '@/components/tools/QRCodeGenerator';
 import ImageCompressor from '@/components/tools/ImageCompressor';
 import LetterGenerator from '@/components/tools/LetterGenerator';
 
-// Newly enabled tools
+// Text tools
 import WordCounter from '@/components/tools/WordCounter';
 import TextCaseConverter from '@/components/tools/TextCaseConverter';
 import LoremIpsumGenerator from '@/components/tools/LoremIpsumGenerator';
 import TextDiffChecker from '@/components/tools/TextDiffChecker';
 import CoverLetterGenerator from '@/components/tools/CoverLetterGenerator';
 import LinkedInSummaryGenerator from '@/components/tools/LinkedInSummaryGenerator';
+
+// Calculators
+import EMICalculator from '@/components/tools/EMICalculator';
+import SIPCalculator from '@/components/tools/SIPCalculator';
+import AgeCalculator from '@/components/tools/AgeCalculator';
+import PercentageCalculator from '@/components/tools/PercentageCalculator';
+import SalaryCalculator from '@/components/tools/SalaryCalculator';
+import GSTCalculator from '@/components/tools/GSTCalculator';
 
 const toolComponents: Record<string, ComponentType> = {
   'resume-builder': ResumeBuilder,
@@ -43,6 +51,13 @@ const toolComponents: Record<string, ComponentType> = {
   'text-diff': TextDiffChecker,
   'cover-letter-generator': CoverLetterGenerator,
   'linkedin-summary': LinkedInSummaryGenerator,
+
+  'emi-calculator': EMICalculator,
+  'sip-calculator': SIPCalculator,
+  'age-calculator': AgeCalculator,
+  'percentage-calculator': PercentageCalculator,
+  'salary-calculator': SalaryCalculator,
+  'gst-calculator': GSTCalculator,
 };
 
 export default function ToolDetailPage() {
