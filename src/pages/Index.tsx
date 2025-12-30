@@ -12,6 +12,7 @@ import { CategoryCard } from '@/components/CategoryCard';
 import { categories, getPopularTools, getNewTools, tools } from '@/data/tools';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useToast } from '@/hooks/use-toast';
 
 const homeFaqs = [
   { q: "Are all tools really free?", a: "Yes! All tools on GetToolsNow are completely free to use with no hidden fees or subscriptions required." },
@@ -29,9 +30,22 @@ const testimonials = [
 
 const Index = () => {
   const [searchQuery, setSearchQuery] = useState('');
+  const [email, setEmail] = useState('');
   const navigate = useNavigate();
+  const { toast } = useToast();
   const popularTools = getPopularTools();
   const newTools = getNewTools();
+
+  const handleSubscribe = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (email.trim()) {
+      toast({
+        title: "Thanks for subscribing!",
+        description: "You'll be notified when we launch new tools and features.",
+      });
+      setEmail('');
+    }
+  };
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -230,9 +244,16 @@ const Index = () => {
             <p className="text-muted-foreground mb-6">
               Get notified when we launch new tools and features
             </p>
-            <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-              <Input type="email" placeholder="Enter your email" className="flex-1" />
-              <Button variant="hero">Subscribe</Button>
+            <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+              <Input 
+                type="email" 
+                placeholder="Enter your email" 
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                className="flex-1" 
+              />
+              <Button type="submit" variant="hero">Subscribe</Button>
             </form>
           </Card>
         </div>
