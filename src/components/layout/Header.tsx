@@ -53,11 +53,11 @@ export function Header() {
         <div className="container mx-auto flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="relative h-9 w-9 rounded-lg bg-gradient-to-br from-primary to-cyan-400 p-1.5 transition-transform group-hover:scale-110 shadow-lg shadow-primary/25">
+            <div className="relative h-9 w-9 rounded-lg overflow-hidden transition-transform group-hover:scale-110 shadow-lg shadow-primary/30">
               <img 
                 src={logoIcon} 
                 alt="GetToolsNow Logo" 
-                className="h-full w-full object-contain brightness-0 invert"
+                className="h-full w-full object-cover"
               />
             </div>
             <span className="text-xl font-bold gradient-text">GetToolsNow</span>
