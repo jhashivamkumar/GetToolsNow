@@ -139,3 +139,46 @@ export function generateArticleSchema(article: {
     "image": article.image || "https://gettoolsnow.com/og-default.png"
   };
 }
+
+export function generateSoftwareApplicationSchema(tool: {
+  name: string;
+  description: string;
+  category: string;
+  url: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": tool.name,
+    "description": tool.description,
+    "applicationCategory": "WebApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "url": `https://gettoolsnow.com${tool.url}`,
+    "provider": {
+      "@type": "Organization",
+      "name": "GetToolsNow",
+      "url": "https://gettoolsnow.com"
+    }
+  };
+}
+
+export function generateHowToSchema(tool: {
+  name: string;
+  steps: string[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": `How to Use ${tool.name}`,
+    "step": tool.steps.map((step, index) => ({
+      "@type": "HowToStep",
+      "position": index + 1,
+      "text": step
+    }))
+  };
+}

@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { getToolBySlug, getRelatedTools, categories } from '@/data/tools';
-import { SEO, generateBreadcrumbSchema } from '@/components/SEO';
+import { SEO, generateBreadcrumbSchema, generateSoftwareApplicationSchema, generateHowToSchema } from '@/components/SEO';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { FAQ, generateFAQSchema } from '@/components/FAQ';
 import { AdSlot } from '@/components/AdSlot';
@@ -181,6 +181,16 @@ export default function ToolDetailPage() {
         jsonLd={[
           generateBreadcrumbSchema(breadcrumbItems.map((b, i) => ({ name: b.label, url: b.href || `/tool/${tool.slug}` }))),
           generateFAQSchema(tool.faqs),
+          generateSoftwareApplicationSchema({
+            name: tool.title,
+            description: tool.shortDesc,
+            category: category?.name || 'Utility',
+            url: `/tool/${tool.slug}`
+          }),
+          generateHowToSchema({
+            name: tool.title,
+            steps: tool.howToSteps
+          })
         ]}
       />
 
