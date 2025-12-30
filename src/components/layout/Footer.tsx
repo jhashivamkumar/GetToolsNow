@@ -41,7 +41,9 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <img src={logoIcon} alt="GetToolsNow Logo" className="h-6 w-6" />
+              <div className="h-7 w-7 rounded-lg bg-gradient-to-br from-primary to-cyan-400 p-1 shadow-lg shadow-primary/25">
+                <img src={logoIcon} alt="GetToolsNow Logo" className="h-full w-full object-contain brightness-0 invert" />
+              </div>
               <span className="text-lg font-bold gradient-text">GetToolsNow</span>
             </Link>
             <p className="text-sm text-muted-foreground mb-4">
