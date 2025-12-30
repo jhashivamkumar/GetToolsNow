@@ -16,6 +16,7 @@ import ContactPage from "./pages/ContactPage";
 import FavoritesPage from "./pages/FavoritesPage";
 import PrivacyPage from "./pages/PrivacyPage";
 import TermsPage from "./pages/TermsPage";
+import LongTailToolPage from "./pages/LongTailToolPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -33,6 +34,7 @@ const App = () => (
               <Route path="/tools" element={<ToolsPage />} />
               <Route path="/tools/:category" element={<CategoryPage />} />
               <Route path="/tool/:slug" element={<ToolDetailPage />} />
+              <Route path="/free/:keyword" element={<LongTailToolPage />} />
               <Route path="/blog" element={<BlogPage />} />
               <Route path="/blog/:slug" element={<BlogPostPage />} />
               <Route path="/about" element={<AboutPage />} />

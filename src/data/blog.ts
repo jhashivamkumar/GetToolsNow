@@ -459,6 +459,363 @@ Use our PDF tools for all these tasks.`,
     tags: ["pdf", "documents", "productivity"],
     relatedTools: ["pdf-merger", "pdf-splitter", "image-to-pdf"],
   },
+  {
+    slug: "free-online-resume-builder-no-signup",
+    title: "Free Online Resume Builder: Create ATS Resume Without Signup",
+    description: "Build a professional ATS-friendly resume for free online. No signup, no watermark, instant PDF download.",
+    content: `# Free Online Resume Builder - No Signup Required
+
+Looking for a free resume builder that doesn't require signup? GetToolsNow offers a completely free, no-registration resume builder.
+
+## Why Choose Our Free Resume Builder?
+
+- **100% Free** - No hidden costs or premium features
+- **No Signup Required** - Start creating immediately
+- **No Watermark** - Clean, professional output
+- **ATS-Optimized** - Passes applicant tracking systems
+- **Instant PDF Download** - Get your resume in seconds
+
+## Features
+
+1. Multiple professional templates
+2. Real-time preview
+3. Easy section editing
+4. Skills and experience sections
+5. Education and certifications
+6. Direct PDF export
+
+## How to Create Your Free Resume
+
+1. Visit our Resume Builder
+2. Fill in your information
+3. Choose a template
+4. Download as PDF
+
+No account needed, no email required. Start building your resume now!`,
+    author: "Career Team",
+    date: "2024-02-01",
+    tags: ["resume", "free-tools", "job-search", "no-signup"],
+    relatedTools: ["resume-builder", "cover-letter-generator", "linkedin-summary"],
+  },
+  {
+    slug: "best-free-image-compressor-online",
+    title: "Best Free Image Compressor Online: Reduce Size Without Quality Loss",
+    description: "Compress images up to 80% smaller free online. No upload to server, works in browser. Best free image compression tool 2024.",
+    content: `# Best Free Image Compressor Online
+
+Need to compress images without losing quality? Our free online image compressor reduces file sizes by up to 80%.
+
+## Why Our Image Compressor?
+
+- **100% Free** - No limits, no watermarks
+- **No Server Upload** - All processing in your browser
+- **Privacy First** - Your images never leave your device
+- **High Quality** - Smart compression preserves details
+- **Multiple Formats** - JPG, PNG, WebP supported
+
+## Compression Results
+
+| Original Size | Compressed | Reduction |
+|--------------|------------|-----------|
+| 5 MB | 1 MB | 80% |
+| 2 MB | 400 KB | 80% |
+| 500 KB | 125 KB | 75% |
+
+## Use Cases
+
+1. **Website Images** - Faster loading times
+2. **Email Attachments** - Under size limits
+3. **Social Media** - Quick uploads
+4. **Storage** - Save disk space
+
+Try our Image Compressor now - it's completely free!`,
+    author: "Tech Team",
+    date: "2024-01-28",
+    tags: ["images", "compression", "free-tools", "optimization"],
+    relatedTools: ["image-compressor", "image-resizer", "webp-converter"],
+  },
+  {
+    slug: "qr-code-generator-free-unlimited",
+    title: "Free QR Code Generator: Unlimited QR Codes No Signup",
+    description: "Generate unlimited QR codes free online. Create QR for URL, WiFi, vCard, UPI. Download PNG/SVG instantly.",
+    content: `# Free QR Code Generator - Unlimited & No Signup
+
+Create unlimited QR codes for free. No registration, no limits, no watermarks.
+
+## QR Code Types Supported
+
+### URL QR Codes
+Link to any website or landing page
+
+### WiFi QR Codes
+Share WiFi credentials instantly - guests scan to connect
+
+### vCard QR Codes
+Share contact information professionally
+
+### UPI Payment QR (India)
+Accept payments via any UPI app
+
+### Plain Text QR
+Encode any message or data
+
+## Features
+
+- **Unlimited Generation** - Create as many as you need
+- **Custom Colors** - Match your brand
+- **High Resolution** - Download PNG or SVG
+- **Error Correction** - QR works even when damaged
+- **Instant Download** - No waiting
+
+## How to Create QR Code
+
+1. Select QR type
+2. Enter your content
+3. Customize colors (optional)
+4. Download PNG or SVG
+
+Start creating QR codes now!`,
+    author: "Marketing Team",
+    date: "2024-01-25",
+    tags: ["qr-code", "free-tools", "marketing", "no-signup"],
+    relatedTools: ["qr-code-generator", "barcode-generator", "url-encoder"],
+  },
+  {
+    slug: "invoice-generator-gst-india-free",
+    title: "Free GST Invoice Generator India: Create GST Bills Online",
+    description: "Generate GST-compliant invoices free online. Auto CGST/SGST calculation, PDF download. Best free invoice maker for India.",
+    content: `# Free GST Invoice Generator for India
+
+Create professional GST-compliant invoices in minutes. 100% free, no signup required.
+
+## GST Invoice Features
+
+- **Auto GST Calculation** - CGST/SGST split automatically
+- **Multiple GST Rates** - 5%, 12%, 18%, 28%
+- **GSTIN Validation** - Verify GST numbers
+- **PDF Export** - Professional invoice format
+- **Logo Support** - Add your company branding
+
+## What's Included
+
+### Seller Details
+- Business name and address
+- GSTIN number
+- Contact information
+
+### Buyer Details
+- Customer name and address
+- Customer GSTIN (B2B)
+- Billing/Shipping address
+
+### Invoice Items
+- Product/Service description
+- HSN/SAC codes
+- Quantity and rates
+- Tax breakdown
+
+## GST Calculation Example
+
+| Item | Amount | GST 18% | Total |
+|------|--------|---------|-------|
+| Service | ₹10,000 | ₹1,800 | ₹11,800 |
+| CGST (9%) | - | ₹900 | - |
+| SGST (9%) | - | ₹900 | - |
+
+Generate your GST invoice now!`,
+    author: "Finance Team",
+    date: "2024-01-22",
+    tags: ["gst", "invoice", "india", "free-tools", "business"],
+    relatedTools: ["invoice-generator", "gst-calculator", "quotation-maker"],
+  },
+  {
+    slug: "password-generator-strong-secure-free",
+    title: "Strong Password Generator: Create Secure Passwords Free",
+    description: "Generate uncrackable passwords instantly. Free online password generator with customizable length and characters.",
+    content: `# Strong Password Generator - Free & Secure
+
+Create unbreakable passwords in one click. Our generator creates truly random, secure passwords.
+
+## Password Security Levels
+
+| Length | Time to Crack |
+|--------|--------------|
+| 8 chars | Hours |
+| 12 chars | Years |
+| 16 chars | Centuries |
+| 20+ chars | Never |
+
+## Generator Options
+
+- **Length** - 8 to 128 characters
+- **Uppercase** - A-Z
+- **Lowercase** - a-z
+- **Numbers** - 0-9
+- **Symbols** - !@#$%^&*
+
+## Why Strong Passwords Matter
+
+1. **Data Breaches** - Weak passwords are easily cracked
+2. **Credential Stuffing** - Reused passwords are risky
+3. **Brute Force** - Short passwords fail fast
+4. **Dictionary Attacks** - Common words are vulnerable
+
+## Best Practices
+
+- Use 16+ characters
+- Include all character types
+- Never reuse passwords
+- Use a password manager
+- Enable 2FA everywhere
+
+Generate your secure password now!`,
+    author: "Security Team",
+    date: "2024-01-20",
+    tags: ["security", "passwords", "free-tools", "privacy"],
+    relatedTools: ["password-generator", "hash-generator", "uuid-generator"],
+  },
+  {
+    slug: "emi-calculator-home-loan-car-loan",
+    title: "EMI Calculator: Calculate Home Loan & Car Loan EMI Free",
+    description: "Calculate EMI for home loan, car loan, personal loan instantly. Free EMI calculator with amortization schedule.",
+    content: `# EMI Calculator - Home Loan, Car Loan, Personal Loan
+
+Calculate your monthly EMI instantly. See total interest and get amortization schedule.
+
+## EMI Formula
+
+EMI = P × r × (1 + r)^n / ((1 + r)^n - 1)
+
+Where:
+- P = Loan Principal
+- r = Monthly Interest Rate
+- n = Loan Tenure (months)
+
+## Loan Type Comparison
+
+| Loan Type | Rate Range | Max Tenure |
+|-----------|-----------|------------|
+| Home Loan | 8-10% | 30 years |
+| Car Loan | 7-12% | 7 years |
+| Personal Loan | 10-24% | 5 years |
+
+## Example Calculation
+
+**Home Loan: ₹50 Lakhs @ 8.5% for 20 years**
+- Monthly EMI: ₹43,391
+- Total Interest: ₹54,13,792
+- Total Payment: ₹1,04,13,792
+
+## Tips to Reduce EMI
+
+1. Make larger down payment
+2. Negotiate lower interest rate
+3. Consider shorter tenure
+4. Prepay when possible
+5. Transfer to lower rate
+
+Calculate your EMI now!`,
+    author: "Finance Team",
+    date: "2024-01-18",
+    tags: ["emi", "loan", "calculator", "finance", "free-tools"],
+    relatedTools: ["emi-calculator", "sip-calculator", "percentage-calculator"],
+  },
+  {
+    slug: "convert-png-to-jpg-free-online",
+    title: "Convert PNG to JPG Free Online: Best Image Converter 2024",
+    description: "Convert PNG to JPG instantly free online. Batch conversion, custom quality, no upload to server. Privacy-first converter.",
+    content: `# Convert PNG to JPG Free Online
+
+Fast, free PNG to JPG conversion right in your browser. No server uploads, 100% private.
+
+## Why Convert PNG to JPG?
+
+| Format | Best For | File Size |
+|--------|----------|-----------|
+| PNG | Graphics, logos | Larger |
+| JPG | Photos | Smaller |
+
+## Conversion Benefits
+
+1. **Smaller Files** - JPG is typically 50-80% smaller
+2. **Faster Loading** - Better for websites
+3. **Wide Compatibility** - Works everywhere
+4. **Easy Sharing** - Email and social media
+
+## What Happens to Transparency?
+
+PNG supports transparency, JPG doesn't. When converting:
+- Transparent areas become white (default)
+- Or choose your preferred background color
+
+## How to Convert
+
+1. Upload your PNG file
+2. Choose background color (optional)
+3. Set quality level
+4. Download JPG
+
+## Batch Conversion
+
+Convert multiple PNGs at once:
+- Select multiple files
+- Convert all together
+- Download as ZIP
+
+Convert your PNG to JPG now!`,
+    author: "Tech Team",
+    date: "2024-01-15",
+    tags: ["images", "converter", "png", "jpg", "free-tools"],
+    relatedTools: ["png-to-jpg", "jpg-to-png", "webp-converter", "image-compressor"],
+  },
+  {
+    slug: "word-counter-character-counter-free",
+    title: "Word Counter & Character Counter: Free Online Text Tool",
+    description: "Count words, characters, sentences, paragraphs instantly. Free word counter with reading time estimate.",
+    content: `# Word Counter & Character Counter
+
+Count words, characters, sentences, and paragraphs in real-time. Perfect for writers, students, and professionals.
+
+## Features
+
+- **Word Count** - Total words
+- **Character Count** - With and without spaces
+- **Sentence Count** - Period detection
+- **Paragraph Count** - Line break detection
+- **Reading Time** - Average reading speed
+- **Speaking Time** - Presentation timing
+
+## Common Limits
+
+| Platform | Character Limit |
+|----------|----------------|
+| Twitter/X | 280 |
+| LinkedIn Post | 3,000 |
+| Meta Description | 160 |
+| Instagram Caption | 2,200 |
+| Google Title | 60 |
+
+## Use Cases
+
+1. **SEO Writing** - Stay within limits
+2. **Social Media** - Fit character limits
+3. **Academic** - Meet word counts
+4. **Presentations** - Time your speech
+5. **Content Writing** - Track article length
+
+## How to Use
+
+1. Paste or type your text
+2. See instant statistics
+3. Track as you write
+4. Copy formatted results
+
+Start counting your words now!`,
+    author: "Content Team",
+    date: "2024-01-12",
+    tags: ["text", "writing", "seo", "free-tools"],
+    relatedTools: ["word-counter", "text-case-converter", "lorem-ipsum"],
+  },
 ];
 
 export const getBlogPost = (slug: string): BlogPost | undefined => {
