@@ -4,5 +4,12 @@
       "source": "/((?!.*\\..*$).*)",
       "destination": "/"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/og-image.png",
+      "destination": "/og-image.svg",
+      "permanent": true
+    }
   ]
 }

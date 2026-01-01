@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0ea5e9" />
+      <stop offset="1" stop-color="#4f46e5" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)" />
+  <g transform="translate(60,95)">
+    <rect x="0" y="0" width="1080" height="440" rx="20" fill="rgba(255,255,255,0.06)" />
+    <text x="40" y="120" font-family="Inter, Arial, sans-serif" font-size="58" fill="white" font-weight="700">GetToolsNow</text>
+    <text x="40" y="200" font-family="Inter, Arial, sans-serif" font-size="32" fill="rgba(255,255,255,0.9)">50+ free online tools — calculators, generators, and utilities</text>
+    <rect x="40" y="260" width="220" height="50" rx="8" fill="white" opacity="0.12" />
+    <text x="60" y="295" font-family="Inter, Arial, sans-serif" font-size="20" fill="white">No signup required</text>
+  </g>
+</svg>
