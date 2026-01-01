@@ -46,12 +46,12 @@ export default function ContactPage() {
             <Card className="text-center">
               <Mail className="h-8 w-8 text-primary mx-auto mb-3" />
               <h3 className="font-semibold mb-1">Email</h3>
-              <p className="text-sm text-muted-foreground">hello@toolsprint.com</p>
+              <p className="text-sm text-muted-foreground">calculatorsolution@gmail.com</p>
             </Card>
             <Card className="text-center">
               <MessageSquare className="h-8 w-8 text-primary mx-auto mb-3" />
               <h3 className="font-semibold mb-1">Support</h3>
-              <p className="text-sm text-muted-foreground">support@toolsprint.com</p>
+              <p className="text-sm text-muted-foreground">calculatorsolution@gmail.com</p>
             </Card>
             <Card className="text-center">
               <MapPin className="h-8 w-8 text-primary mx-auto mb-3" />

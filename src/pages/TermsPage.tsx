@@ -41,7 +41,7 @@ export default function TermsPage() {
 
           <h2 className="text-xl font-bold mt-8 mb-4">Contact</h2>
           <p className="text-muted-foreground mb-4">
-            Questions about these terms? Contact us at legal@toolsprint.com.
+            Questions about these terms? Contact us at calculatorsolution@gmail.com.
           </p>
         </div>
       </div>
