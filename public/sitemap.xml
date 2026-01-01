@@ -40,8 +40,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
-
-  <!-- Categories -->
   <url>
     <loc>https://gettoolsnow.com/tools/documents</loc>
     <changefreq>weekly</changefreq>
@@ -72,8 +70,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- Popular Tools -->
   <url>
     <loc>https://gettoolsnow.com/tool/resume-builder</loc>
     <changefreq>weekly</changefreq>
@@ -99,8 +95,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- Long-tail Keyword URLs -->
   <url>
     <loc>https://gettoolsnow.com/free/free-resume-builder-online</loc>
     <changefreq>weekly</changefreq>
@@ -161,8 +155,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- All Tools -->
   <url>
     <loc>https://gettoolsnow.com/tool/letter-generator</loc>
     <changefreq>weekly</changefreq>
@@ -338,8 +330,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Blog Posts -->
   <url>
     <loc>https://gettoolsnow.com/blog/how-to-create-ats-friendly-resume</loc>
     <changefreq>monthly</changefreq>
@@ -424,8 +414,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
-  
-  <!-- Categories -->
   <url>
     <loc>https://gettoolsnow.com/tools/documents</loc>
     <changefreq>weekly</changefreq>
@@ -456,8 +444,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- Popular Tools -->
   <url>
     <loc>https://gettoolsnow.com/tool/resume-builder</loc>
     <changefreq>weekly</changefreq>
@@ -488,8 +474,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- Calculators -->
   <url>
     <loc>https://gettoolsnow.com/tool/emi-calculator</loc>
     <changefreq>weekly</changefreq>
@@ -540,8 +524,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- Text Tools -->
   <url>
     <loc>https://gettoolsnow.com/tool/word-counter</loc>
     <changefreq>weekly</changefreq>
@@ -562,8 +544,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-  
-  <!-- Utilities -->
   <url>
     <loc>https://gettoolsnow.com/tool/password-generator</loc>
     <changefreq>weekly</changefreq>
@@ -579,8 +559,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-  
-  <!-- Image Tools -->
   <url>
     <loc>https://gettoolsnow.com/tool/image-resizer</loc>
     <changefreq>weekly</changefreq>
@@ -616,8 +594,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- Business Tools -->
   <url>
     <loc>https://gettoolsnow.com/tool/salary-slip-generator</loc>
     <changefreq>weekly</changefreq>
